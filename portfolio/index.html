@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tivon Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      html {
+          scroll-behavior: smooth;
+      }
+  </style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink">
+            <div class="container-fluid">
+              <h1 class="tiv">Tivon Laine</h1>
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active home" aria-current="page" href="#beginning">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link about" href="#about">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link project" href="#projects">Projects</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle proj" href="#projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link contact"  href="#connect" >Contact</a>
+                  </li>
+                </ul>
+                  <a href="http://www.linkedin.com/in/tivonlaine" target="_blank"><img class="topright" src="linkedin.png" alt=""></a>
+                  <a href="http://github.com/tivonlaine/Tivon_Project" target="_blank"><img class="topright" src="github.svg" alt=""></a>
+              </div>
+            </div>
+    </nav>
+
+    <div class="top" id="beginning">
+      <div class="space"></div>
+      <div class="space"></div>
+      <h1 class="welcome">Tivon Laine</h1>
+      <br>
+      <h3 class="left">Software Engineer</h3>
+      <div class="space"></div>
+      <div class="space"></div>
+      <div class="space"></div>
+      <div class="space"></div>
+      <div class="space"></div>
+    </div>
+    <div class="firstblock" id="about">
+      <div class="info">
+        <br>
+        <br>
+        <h1>Who Am I</h1>
+        <br>
+        <h3 >As an aspiring software engineer, I look to hone my skills and build connections that will ultimately lead me to my goal of becoming a well rounded full-stack developer.</h3>
+        <br>
+        <h3> Since I was a kid, I always had an interest within the technological realm. From the moment I attended my first computer science class in the 7th grade, to being in the cybersecurity program in my magnet high school, up to my first taste of coding at college, I knew this was more than a career choice. It was a passion.</h3>
+        <div class="space"></div>
+      </div>
+    </div>
+    <div class="secondblock">
+      <div class="about">
+        <div class="space"></div>
+        <h1 >About Me</h1>
+        <br>
+        <h4>As a second year student at UNLV, I am eager to put my abilities to the test and apply them to real world scenarios. I believe I have what it takes to immerse myself in a professional environment and make change where it truly matters.</h4>
+        <img class="unlv" src="unlvlogo.png" alt="">
+        <img class="c" src="c++.png" alt="">
+        <img class="css" src="css.jpeg" alt="">
+        <img class="js" src="js.webp" alt="">
+        <div class="imagecolor">
+          <img class="html" src="html.png" alt="">
+        </div>
+        <img class="python" src="python.png" alt="">
+        <h5 class="school u">University of Las Vegas, Nevada   </h5>
+        <h5 class="school">2022-Present</h5>
+        <h5 class="school">Bachelor of Science Computer Science</h5>
+        <h4 class="lang">I have developed a diverse range of applications including command line apps, simulations, games, and fully functional websites. With extensive experience in backend programming, using C++ and Python, I also specialize in front end development, utilizing HTML, CSS, JavaScript, React, and Bootstrap, to create intuitive user interfaces. </h4>
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="thirdblock" id="projects">
+      <br>
+      <br>
+      <h1>Projects</h1>
+      <br>
+      <h3>Look at some of my projects below</h3>
+      <br>
+      <br>
+        <div class="container">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">C++</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Python</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">HTML/CSS</a>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="myTabContent">
+            <div class="space"></div>
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="boxes">
+                <!-- <div class="box"> -->
+                  <div class="cplusplus">
+                    <video class="familytree" controls src="familytree.mov"></video>
+                    <h5 class="moveleft">This family tree simulator swaps cousins wealth's and make sure inheritance is correctly given to each grandchild. Binary tree operations such as traversal and depth first search are used, alongside recursion, to maintain an efficient algorithm.</h5>
+                  </div>
+                <!-- </div> -->
+                <!-- <div class="box"> -->
+                  <div class="cplusplus">
+                    <video class="queensgame" controls src="queensgame.mov"></video>
+                    <br>
+                    <br>
+                    <h5>Have you heard of the Eight Queens Puzzle? The goal is to place eight queens on a board while making sure none of them can attack each other in any direction. To explore all possible paths, recursive backtracking is utilized for a proficient method.</h5>
+                  </div>
+                <!-- </div> -->
+                <!-- <div class="box"> -->
+                  <div class="cplusplus">
+                    <video class="solitare" controls src="solitare.mov"></video>
+                    <br>
+                    <br>
+                    <h5>Up for a challenge? Test your  skills with a game of Solitare. Using arrays of linked lists to emulate a stack of cards, and iterators to navigate through the piles, this classic game comes to life on your screen. Arrange the cards strategically and aim for victory!  </h5>
+                  </div>
+                <!-- </div> -->
+              </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="boxes">
+                <!-- <div class="box"> -->
+                  <div class="py">
+                    <video class="snakegame" controls src="snakerecording.mov"></video>
+                    <br>
+                    <br>
+                    <h5>Enjoy this classic snake game where you try to get the highest score and grow to your full snake potential. Don't bite your own tail or you will fail! </h5>
+                  </div>
+                <!-- </div> -->
+                <!-- <div class="box"> -->
+                  <div class="py">
+                    <video class="turtlecross" controls src="turtlecrossingrecording.mov"></video>
+                    <br>
+                    <br>
+                    <h5>A twist to the famously known Crossy Road comes Turtle Cross. You can only go one direction: up. Make sure to time your jumps perfectly so you don't become roadkill. </h5>
+                  </div>
+                <!-- </div> -->
+                <!-- <div class="box"> -->
+                  <div class="py">
+                    <video class="pong" controls src="pingpongrecording.mov"></video>
+                    <br>
+                    <br>
+                    <h5>Grab a friend to play this iconic game of ping pong. Choose easy for a casual game or hard if you're up for a fast paced challenge. First to five wins! </h5>
+                  </div>
+                <!-- </div> -->
+              </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="twoboxes">
+                <!-- <div class="both"> -->
+                  <div class="lhtmlcss">
+                    <video class="pokemon" controls src="pokemongenerator.mov"></video>
+                    <br>
+                    <br>
+                    <h5> In this website, the PokeAPI was used to fetch pokemon information such as name, weight, and a sprite to display to the user. JS and React, along with HTML and CSS, were used for the functionality of this site.</h5>
+                  </div>
+                <!-- </div> -->
+                <!-- <div class="both"> -->
+                  <div class="rhtmlcss">
+                    <video class="alpha" controls src="alphavantage.mov"></video>
+                    <br>
+                    <br>
+                    <h5> Initially presented as a coding challenge, but later pursued as a personal goal, I used the AlphaVantage API to retrieve stock information about several companies. I used HTML, CSS, JS, and React to produce this.  </h5>
+                  </div>
+                <!-- </div> -->
+              </div>
+              <br>
+              <br>
+              <h5 class="last">This portfolio was developed using HTML, CSS, and Bootstrap for formatting.</h5>
+            </div>
+            <!-- <h5>If you would like to see the code for this project, or any others that I've done, please feel free to view my Github repository linked below.</h5>
+            <a class="button" href="https://github.com/tivonlaine/Tivon_Project" target="_blank"><button>Github</button></a> -->
+          </div>
+          <br>
+          <br>
+          <h5>If you would like to see the code for this project, or any others that I've done, please feel free to view my Github repository linked below.</h5>
+          <br>
+          <a class="button" href="https://github.com/tivonlaine/Tivon_Project" target="_blank"><button>Github</button></a>
+        </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <br>
+      <br>
+    </div>
+    <div class="fourthblock" id="connect">
+      <div class="space"></div>
+      <h2>Lets Connect!</h2>
+      <br>
+      <br>
+      <h4>Email: <a href="mailto: tivonrobla@gmail.com">tivonrobla@gmail.com</a> </h4>
+      <h4>Phone: <a href="tel: 7024032811">702-403-2811</a> </h4>
+      <br>
+      <script>
+       document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+       
+      </script>
+      <!-- <h5>Or send me a message below</h5>
+      <br>
+      <form action="send_message.php" method="post">
+        <div class="message">
+          <input type="text" name="name" placeholder="Name*">
+          <input type="text" name="email" placeholder="Email*">
+          <br>
+          <br>
+          <textarea class="main" name="message" placeholder="Message*" ></textarea>
+          <br>
+          <br>
+          <button class="send" onclick="sendMessage()">Send Message</button>
+        </div>
+      </form>
+      <script>
+        function adjustTextareaHeight() {
+        const textarea = document.getElementById('main');
+        textarea.style.height = 'auto'; // Reset height to auto to calculate the actual height needed
+        textarea.style.height = (textarea.scrollHeight + 2) + 'px'; // Set height to the scroll height of the textarea plus a small margin
+      }
+
+      // Call the adjustTextareaHeight function whenever the user types in the textarea
+        document.getElementById('main').addEventListener('input', adjustTextareaHeight)
+      </script>
+
+      <script>
+        function sendMessage(){
+
+          let name=document.getElementById("name").value.trim()
+          let email=document.getElementById("email").value.trim()
+          let message=document.getElementById("main").value.trim()
+
+          if(name==""||email==""||message==""){
+            alert("Please fill in all the required fields.")
+            return;
+          }
+        }
+      </script> -->
+      <br>
+      <br>
+      <div class="links">
+        <a href="http://www.linkedin.com/in/tivonlaine" target="_blank"><img class="cont" src="linkedin.png" alt=""></a>
+        <a href="http://github.com/tivonlaine/Tivon_Project" target="_blank"><img class="cont" src="github.svg" alt=""></a>
+        <a href="https://app.joinhandshake.com/stu/users/40617512" target="_blank"><img class="cont" src="handshake.png" alt=""></a>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-lEW+1CVfDybdJwHlLjKQyOJoV6wGGjO0louLwHcXr4ZFCzlP2rS/rL2I9AD8t+Iv" crossorigin="anonymous"></script>
+        <br>
+        <br>
+      </div>
+    </div>
+  </body>
+</html
